@@ -55,12 +55,12 @@ def runOffline():
             loads = json.loads(load)
             ip = loads['ip']
 
-        print("\033[93mCONNECT NETWORK\033[00m\n  http://",ip)
+        print("\033[93m CONNECT NETWORK\033[00m\n  http://",ip)
         print("\033[1;34;40m")   
-        print("WALLET =",wallet)
-        print("NAME   =",name)
-        print("POOL   =",pool)
-        print("CPU    =",cpu)
+        print("\033[96m WALLET =\033[0m",wallet)
+        print("\033[96m NAME   =\033[0m",name)
+        print("\033[96m POOL   =\033[0m",pool)
+        print("\033[96m CPU    =\033[0m",cpu)
         if pool in zergpool:
 
            print("PASS   =",password +",id="+name)
