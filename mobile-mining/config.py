@@ -8,7 +8,7 @@ def banner():
     os.system("figlet -f digital server version 1.1")
     print("\033[00m\n")
     print("\033[96mEdit by THAPWARIT PRUEKTRANON\033[0m")
-	print("\033[96mCredit by PICHET SAENGTEWAN\033[0m")
+    print("\033[96mCredit by PICHET SAENGTEWAN\033[0m")
     print("\033[96mDebug Colors by AMARIN PRAPRIWIT\033[0m")
     print("\033[36m\033[0m")
     
@@ -27,4 +27,4 @@ def banneredit():
     os.system("figlet -f big [-EDIT-]")
     print("\033[00m\n")
     print("\033[96mEdit by THAPWARIT PRUEKTRANON\033[0m")
-	print("\033[96mCredit by PICHET SAENGTEWAN\033[0m")
+    print("\033[96mCredit by PICHET SAENGTEWAN\033[0m")
