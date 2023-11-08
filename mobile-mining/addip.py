@@ -9,7 +9,8 @@ def banner():
 	os.system("figlet -f big VERUS")
 	os.system("figlet -f digital http-server")
 	print("\033[00m\n")
-	print("\033[95mEdit by PICHET SAENGTEWAN\033[0m")
+	print("\033[95mEdit by THAPWARIT PRUEKTRANON\033[0m")
+	print("\033[95mCredit by PICHET SAENGTEWAN\033[0m")
 	print("\033[36m\033[0m")
 
 def setip():
@@ -26,7 +27,7 @@ def setip():
             raise Exception()
     except:
         os.system("@cls||clear")
-        print("\033[32mเกิดข้อผิดพลาดโปรดตั้งค่าใหม่\033[00m")
+        print("\033[32mเกิดข้อผิดพลาด!! โปรดตั้งค่าใหม่\033[00m")
         time.sleep(3)
         os.system("python3 addip.py")
 
